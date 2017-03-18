@@ -1,7 +1,7 @@
 {
   "name": "apipe",
-  "version": "0.0.1",
-  "description": "apipe",
+  "version": "0.0.2",
+  "description": "Functional pipes and promise based pipes.",
   "main": "index.js",
   "directories": {
     "test": "test"
