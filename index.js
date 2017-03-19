@@ -23,7 +23,7 @@ const pipe = (...args) => {
 };
 
 const promisePipe = (...args) => {
-    args = inputOrganiser(args, pipe);
+    args = inputOrganiser(args, promisePipe);
 
     return (input) => {
         return Promise.resolve()
